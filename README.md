@@ -166,16 +166,27 @@ Follow these steps to run the program in **IntelliJ IDEA**:
 
 ### Input:
 Masukkan nama anggota: Sugeng Riyanto 
+
 Masukkan ID anggota: A123 
+
 Masukkan email anggota: sugeng@example.com 
+
 Masukkan judul buku: Pemrograman Java 
+
 Masukkan penulis buku: John Doe Masukkan ISBN buku: 1234567890 
+
 Buku 'Pemrograman Java' berhasil dipinjam. 
+
 Apakah ingin menambah buku lain? (ya/tidak): ya 
+
 Masukkan judul buku: Algoritma Pemrograman 
+
 Masukkan penulis buku: Jane Smith 
+
 Masukkan ISBN buku: 9876543210 Buku 'Algoritma Pemrograman' berhasil dipinjam. 
+
 Apakah ingin menambah buku lain? (ya/tidak): tidak
+
 ---
 
 ## More Details
