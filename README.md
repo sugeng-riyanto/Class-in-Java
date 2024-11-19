@@ -91,3 +91,77 @@ Open IntelliJ IDEA and create a new project.
 Add the Mobil.java and Main.java files to the src folder.
 2. Compile and Run
 Right-click on Main.java and select Run 'Main.main()'.
+
+# Library Borrowing System
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Project Structure](#project-structure)
+- [Classes Explanation](#classes-explanation)
+- [How to Run](#how-to-run)
+- [Sample Input and Output](#sample-input-and-output)
+
+---
+
+## Introduction
+
+This project is a simple **Library Borrowing System** implemented in Java. The program allows:
+1. Users to input library member details (name, ID, email).
+2. Users to input book details (title, author, ISBN) for books borrowed by the member.
+3. The system to display the list of books borrowed by a specific member.
+
+This project demonstrates key concepts in **Object-Oriented Programming (OOP)** such as:
+- Classes and Objects
+- Encapsulation using `private` access modifiers
+- Use of `ArrayList` for dynamic data handling
+- Input handling using `Scanner`
+
+---
+
+## Project Structure
+
+The project has the following structure:
+
+
+### Files Description
+1. **`Buku.java`**:
+   - Represents a book in the library.
+   - Attributes: `judul`, `penulis`, `isbn`.
+   - Includes getter methods and a `toString` method for displaying book information.
+
+2. **`Anggota.java`**:
+   - Represents a library member.
+   - Attributes: `nama`, `idAnggota`, `email`, and a list of borrowed books (`ArrayList<Buku>`).
+   - Methods:
+     - `pinjamBuku`: Adds a book to the member's borrowed list.
+     - `tampilkanBukuPinjaman`: Displays all borrowed books.
+
+3. **`Perpustakaan.java`**:
+   - Contains the `main` method.
+   - Handles user input for member and book details.
+   - Controls the program flow (adding books and displaying borrowed books).
+
+---
+
+## How to Run
+
+Follow these steps to run the program in **IntelliJ IDEA**:
+
+1. **Clone or Download the Project**:
+   Download or clone the project repository to your computer.
+
+2. **Open IntelliJ IDEA**:
+   - Open IntelliJ IDEA and click on **Open Project**.
+   - Select the folder containing the project.
+
+3. **Compile and Run**:
+   - Right-click on `Perpustakaan.java`.
+   - Select **Run 'Perpustakaan.main()'**.
+   - The console will prompt for input.
+
+---
+
+## Sample Input and Output
+
+### Input:
+
